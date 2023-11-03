@@ -106,9 +106,9 @@ header h2 {
 }
 
 .card {
-    border: 1px solid;
     border-radius: 5px;
-    box-shadow: 5px 10px #E2E8F0;
+    box-shadow: 0 0 4px 4px #E2E8F0; 
+    border-color: #E2E8F0;
     background: #fff;
     text-align: center;
     font-size: 18px;
@@ -118,6 +118,7 @@ header h2 {
     width: 280px;
     height: 580px;
 }
+
 
 
 li {
@@ -169,6 +170,7 @@ li:before {
 
 .testing .btn {
     background-color: #48BB78;
+    color: white; /* Added color property to change text color to white */
     position: relative;
     top: 46%;
     right: 27%;
@@ -282,6 +284,7 @@ li:before {
 }
 
 .newsletter .btn {
+    border: none;
     border-radius: 5px;
     margin-left: 20px;
     background: #5A67D8;
@@ -296,6 +299,7 @@ li:before {
 }
 
 input {
+    border: none;
     border-radius: 5px;
     width: 300px;
     height: 40px;
